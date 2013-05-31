@@ -1,10 +1,10 @@
 body {
   background-color: #eceff0;
   font-size: 1em;
-  transition:all .2s linear;
+/*  transition:all .2s linear;
   -o-transition:all .2s linear;
   -moz-transition:all .2s linear;
-  -webkit-transition:all .2s linear;
+  -webkit-transition:all .2s linear;*/
 }
 
 /*@media screen and (max-width:1200px) {
@@ -27,8 +27,9 @@ body {
 
 #container {
   margin: auto;
+
   min-width: 960px;
-  min-height: 768px;
+/*  min-height: 768px;*/
 }
 
 .intro_text {
@@ -86,6 +87,12 @@ body {
 #proj_intro img {
   margin-left: 15px;
 }
+
+/*.sticky {
+  top: 0;
+  position: fixed;
+  z-index: 10000;
+}*/
 
 #resume_box {
   height: 100%;
@@ -188,14 +195,14 @@ a[href $='.pdf'] {
   text-align: center;
 }
 
-#toc {
+.toc {
   width: 100%;
   font-family: 'Open Sans';
   color: #000000;
   margin-top: 50px;
 }
 
-#toc h2 {
+.toc h2 {
   font-family: 'Open Sans';
   color: #000000;
   font-size: 2.3em;
@@ -204,7 +211,7 @@ a[href $='.pdf'] {
   margin-bottom: 5px;
 }
 
-#toc dt {
+.toc dt {
   font-family: 'Open Sans';
   font-size: 0.8em;
   font-weight: 600;
@@ -213,13 +220,18 @@ a[href $='.pdf'] {
   text-indent: 0;
 }
 
-#toc dd {
+.toc dd {
   font-family: 'Open Sans';
   font-size: 1.2em;
   font-weight: 600;
   color: #000000;
   text-indent: 0;
   margin: 5px 0 15px 0;
+}
+
+.toc a {
+  text-decoration: none;
+  color: #000000;
 }
 
 .project {
