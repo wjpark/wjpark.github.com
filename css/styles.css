@@ -33,7 +33,7 @@ body {
 
 .intro_text {
   font-family: 'Open Sans', sans-serif;
-  font-size: 2.2em;
+  font-size: 2.3em;
   font-weight: 600;
   line-height: 1.3em;
   color: #ffffff;
@@ -58,6 +58,14 @@ body {
   margin-top: 10px;
 }
 
+.rule2 {
+  background-color: #000000;
+  height: 5px;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
 #intro_box {
   height: 100%;
   background-color: #17b1ff;
@@ -72,7 +80,7 @@ body {
   line-height: 1em;
   color: #f5dc08;
   text-transform: uppercase;
-  margin: 83px 0px 16px 30px;
+  margin: 60px 0px 16px 30px;
 }
 
 #proj_intro img {
@@ -180,8 +188,43 @@ a[href $='.pdf'] {
   text-align: center;
 }
 
+#toc {
+  width: 100%;
+  font-family: 'Open Sans';
+  color: #000000;
+  margin-top: 50px;
+}
+
+#toc h2 {
+  font-family: 'Open Sans';
+  color: #000000;
+  font-size: 2.3em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+#toc dt {
+  font-family: 'Open Sans';
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #000000;
+  text-transform: uppercase;
+  text-indent: 0;
+}
+
+#toc dd {
+  font-family: 'Open Sans';
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #000000;
+  text-indent: 0;
+  margin: 5px 0 15px 0;
+}
+
 .project {
   height: 768px;
+  margin-top: 125px;
 }
 
 .card {
@@ -189,7 +232,6 @@ a[href $='.pdf'] {
   height: 600px;
   background-color: #ffffff;
   box-shadow: 0 2px 2px 0px #A5A7A8;
-  margin-top: 20px;
   position: relative;
 }
 
@@ -205,7 +247,6 @@ a[href $='.pdf'] {
 .img_card {
   width: 100%;
   box-shadow: 0 2px 2px 0px #A5A7A8;
-  margin-top: 20px;
 }
 
 .content {
@@ -226,9 +267,10 @@ a[href $='.pdf'] {
   font-weight: 400;
   color: #000000;
   word-wrap: break-word;
-  column-count: 3;
-  column-gap: 20px;
-  height: 150px;
+  -webkit-columns: 3 60px;
+  -webkit-column-gap: 20px;
+  height: 200px;
 }
+
 
 
