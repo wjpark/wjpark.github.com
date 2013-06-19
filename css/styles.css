@@ -36,6 +36,20 @@ a {
 /*  min-height: 768px;*/
 }
 
+#intro_box {
+  height: 100%;
+  background-color: #17b1ff;
+  margin-top: 30px;
+  box-shadow: 0 2px 2px 0px #A5A7A8;
+}
+
+#intro_box.fixed {
+  position: fixed;
+  margin-top: 0px;
+  top: 0;
+  z-index: 10000;
+}
+
 .intro_text {
   font-family: 'Open Sans', sans-serif;
   font-size: 2.3em;
@@ -71,12 +85,6 @@ a {
   margin-top: 5px;
 }
 
-#intro_box {
-  height: 100%;
-  background-color: #17b1ff;
-  margin-top: 30px;
-  box-shadow: 0 2px 2px 0px #A5A7A8;
-}
 
 #proj_intro {
   font-family: 'Open Sans';
@@ -90,12 +98,6 @@ a {
 
 #proj_intro img {
   margin-left: 15px;
-}
-
-.sticky {
-  top: 0;
-  position: fixed;
-  z-index: 10000;
 }
 
 #resume_box {
@@ -180,6 +182,13 @@ a[href $='.pdf'] {
   background-color: #ffffff;
   margin-top: 20px;
   box-shadow: 0 2px 2px 0px #A5A7A8;
+}
+
+#email_box.fixed {
+  position: fixed;
+  margin-top: 0px;
+  top: 0;
+  z-index: 10000;
 }
 
 #email_text {

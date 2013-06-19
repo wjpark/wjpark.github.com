@@ -10,8 +10,18 @@ $(document).ready(function() {
     return false;
   });
 
-  // $('#email_box').waypoint('sticky', {
-  //   offset: 30 // Apply "stuck" when element 30px from top
+  var top = $('#email_box').offset().top;
+
+  // $(window).scroll(function (event) {
+  //   var y = $(this).scrollTop();
+
+  //   if (y >= top) {
+  //     $('#email_box').addClass('fixed');
+  //     $('#intro_box').addClass('fixed');
+  //   } else {
+  //     $('#email_box').removeClass('fixed');
+  //     $('#intro_box').removeClass('fixed');
+  //   }
   // });
 });
 
