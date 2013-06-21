@@ -10,8 +10,7 @@ $(document).ready(function() {
     return false;
   });
 
-  var top = $('#email_box').offset().top;
-
+ var top = $('#email_box').offset().top;
   // $(window).scroll(function (event) {
   //   var y = $(this).scrollTop();
 

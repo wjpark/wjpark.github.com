@@ -31,7 +31,6 @@ a {
 
 #container {
   margin: auto;
-
   min-width: 960px;
 /*  min-height: 768px;*/
 }
@@ -39,15 +38,8 @@ a {
 #intro_box {
   height: 100%;
   background-color: #17b1ff;
-  margin-top: 30px;
+  margin-top: 20px;
   box-shadow: 0 2px 2px 0px #A5A7A8;
-}
-
-#intro_box.fixed {
-  position: fixed;
-  margin-top: 0px;
-  top: 0;
-  z-index: 10000;
 }
 
 .intro_text {
@@ -89,7 +81,7 @@ a {
 #proj_intro {
   font-family: 'Open Sans';
   font-size: 1.2em;
-  font-weight: 700;
+  font-weight: 600;00;
   line-height: 1em;
   color: #f5dc08;
   text-transform: uppercase;
@@ -103,7 +95,7 @@ a {
 #resume_box {
   height: 100%;
   background-color: #ffffff;
-  margin-top: 30px;
+  margin-top: 20px;
   box-shadow: 0 2px 2px 0px #A5A7A8;
 }
 
@@ -205,89 +197,24 @@ a[href $='.pdf'] {
   width: 100%;
   font-family: 'Open Sans';
   color: #000000;
-  margin-top: 50px;
-}
-
-.toc h2 {
-  font-family: 'Open Sans';
-  color: #000000;
-  font-size: 2.3em;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-bottom: 5px;
+  margin-top: 30px;
 }
 
 .toc dt {
   font-family: 'Open Sans';
   font-size: 0.8em;
   font-weight: 600;
-  color: #000000;
+  color: #17b1ff;
   text-transform: uppercase;
   text-indent: 0;
+  margin-bottom: -5px;
 }
 
 .toc dd {
   font-family: 'Open Sans';
   font-size: 1.2em;
-  font-weight: 600;
-  color: #000000;
-  text-indent: 0;
-  margin: 5px 0 15px 0;
-}
-
-.project {
-  height: 768px;
-  margin-top: 125px;
-}
-
-.card {
-  width: 100%;
-  height: 600px;
-  background-color: #ffffff;
-  box-shadow: 0 2px 2px 0px #A5A7A8;
-  position: relative;
-}
-
-.card img {
-  width: 100%;
-  display: block;
-  margin: auto;
-  position:absolute;
-  top: 0;
-  bottom: 0;
-}
-
-.img_card {
-  width: 100%;
-  box-shadow: 0 2px 2px 0px #A5A7A8;
-}
-
-.content {
-  margin-top: 15px;
-}
-
-.title {
-  font-family: 'Open Sans';
-  font-size: 0.8em;
-  font-weight: 700;
-  color: #000000;
-  text-transform: uppercase;
-}
-
-.summary {
-  font-family: 'Open Sans';
-  font-size: 0.8em;
   font-weight: 400;
   color: #000000;
-  word-wrap: break-word;
-  -webkit-columns: 3 60px;
-  -webkit-column-gap: 20px;
-  height: 200px;
+  text-indent: 0;
+  margin: 10px 0 15px 0;
 }
-
-.summary a {
-  color: #17b1ff;
-  text-transform: uppercase;
-}
-
-
